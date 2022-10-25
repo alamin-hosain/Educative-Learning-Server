@@ -15,14 +15,17 @@ app.get('/courses', (req, res) => {
     res.send(courses);
 })
 
-app.get('/course/:id', (req, res) => {
+app.get('/courses/:id', (req, res) => {
     const id = parseInt(req.params.id);
+    console.log(id)
     const singleCourse = courses.find(course => course.id === id);
+    console.log(singleCourse);
     res.send(singleCourse);
 })
 
 app.get('/category', (req, res) => {
-    const singleCategory = courses.map(course => course.category);
+    const category = courses.map(course => course.category);
+    const singleCategory = category.filter((value, index, category) => category.indexOf(value) === index);
     res.send(singleCategory);
 })
 
