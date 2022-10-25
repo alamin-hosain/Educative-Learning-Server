@@ -21,6 +21,17 @@ app.get('/course/:id', (req, res) => {
     res.send(singleCourse);
 })
 
+app.get('/category', (req, res) => {
+    const singleCategory = courses.map(course => course.category);
+    res.send(singleCategory);
+})
+
+
+app.get('/category/:name', (req, res) => {
+    const categoryName = req.params.name;
+    const singleCategoryItems = courses.filter(course => course.category === categoryName);
+    res.send(singleCategoryItems);
+})
 
 app.listen(Port, () => {
     console.log('Server is up and Running')
