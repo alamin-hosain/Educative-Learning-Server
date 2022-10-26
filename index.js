@@ -5,7 +5,7 @@ app.use(cors())
 
 const Port = process.env.Port || 5000;
 const courses = require('./data/courses.json');
-
+const categories = require('./data/categories.json')
 
 app.get('/', (req, res) => {
     res.send('Api Server is Running')
@@ -17,24 +17,29 @@ app.get('/courses', (req, res) => {
 
 app.get('/courses/:id', (req, res) => {
     const id = parseInt(req.params.id);
-    console.log(id)
     const singleCourse = courses.find(course => course.id === id);
     console.log(singleCourse);
     res.send(singleCourse);
 })
 
-app.get('/category', (req, res) => {
-    const category = courses.map(course => course.category);
-    const singleCategory = category.filter((value, index, category) => category.indexOf(value) === index);
-    res.send(singleCategory);
+app.get('/categories', (req, res) => {
+    res.send(categories);
+})
+
+app.get('/category/:id', (req, res) => {
+    const id = req.params.id;
+    if (id === '00') {
+        res.send(courses);
+    }
+    else {
+        const singleCategoryCourses = courses.filter(course => course.category_id === id);
+
+        res.send(singleCategoryCourses)
+    }
 })
 
 
-app.get('/category/:name', (req, res) => {
-    const categoryName = req.params.name;
-    const singleCategoryItems = courses.filter(course => course.category === categoryName);
-    res.send(singleCategoryItems);
-})
+
 
 app.listen(Port, () => {
     console.log('Server is up and Running')

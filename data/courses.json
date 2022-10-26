@@ -1,7 +1,8 @@
 [
     {
         "id": 1,
-        "category": "Business&Management",
+        "category": "Business & Management",
+        "category_id" : "01",
         "name": "Professional Resilience: Building Skills to Thrive at Work",
         "image": "https://ugc.futurelearn.com/uploads/images/0c/a4/header_0ca42500-415d-4e53-a636-3364ad02fe46.jpg",
         "short_description": "Learn how to deal with stress at work and in your personal life through building resilience skills.",
@@ -18,7 +19,8 @@
     },
     {
         "id": 2,
-        "category": "Business&Management",
+        "category": "Business & Management",
+        "category_id" : "01",
         "name": "How to Fundraise: A Guide to Fundraising for Non-Fundraisers",
         "image": "https://ugc.futurelearn.com/uploads/images/9d/d6/header_9dd6c9f7-511b-4c41-a988-8c93fc888da5.jpg",
         "short_description": "Get a practical guide to fundraising and learn tips on everything from preparing your fundraising story to processing donations.",
@@ -36,7 +38,8 @@
     },
     {
         "id": 3,
-        "category": "Business&Management",
+        "category": "Business & Management",
+        "category_id" : "01",
         "name": "Doing Business in Web3",
         "image": "https://ugc.futurelearn.com/uploads/images/a2/e8/header_a2e86a1b-2913-4ad9-88c9-52ebeb682184.jpg",
         "short_description": "Explore the fundamentals of Web3 and discover how its emerging digital technologies are transforming business.",
@@ -54,7 +57,8 @@
     },
     {
         "id": 4,
-        "category": "computer-science",
+        "category": "Computer Science",
+        "category_id" : "02",
         "name": "Introduction to Cyber Security",
         "image": "https://ugc.futurelearn.com/uploads/images/36/d6/header_36d68953-a00a-4f96-8016-7dc8607c7771.jpg",
         "short_description": "Learn the essentials of cyber security and build your skills to better protect your digital information from security threats.",
@@ -72,7 +76,8 @@
     },
     {
         "id": 5,
-        "category": "computer-science",
+        "category": "Computer Science",
+        "category_id" : "02",
         "name": "Introduction to AI Applications in Pulmonary Medicine",
         "image": "https://ugc.futurelearn.com/uploads/images/56/84/header_56845b3d-70e6-4e1d-8cbc-3902ca1d0d90.jpg",
         "short_description": "Discover how AI, machine learning and deep learning have improved clinical practice in the treatment of respiratory diseases.",
@@ -90,7 +95,8 @@
     },
     {
         "id": 6,
-        "category": "computer-science",
+        "category":  "Computer Science",
+        "category_id" : "02",
         "name": "Cybercrime Prevention and Protection",
         "image": "https://ugc.futurelearn.com/uploads/images/cc/7e/header_cc7ed0a0-0ca1-4e0f-8aca-66ca7098f6ac.jpg",
         "short_description": "Discover how AI, machine learning and deep learning have improved clinical practice in the treatment of respiratory diseases.",
@@ -108,7 +114,8 @@
     },
     {
         "id": 7,
-        "category": "computer-science",
+        "category":  "Computer Science",
+        "category_id" : "02",
         "name": "How to Implement Industry 4.0 Technologies",
         "image": "https://ugc.futurelearn.com/uploads/images/0e/e8/header_0ee86777-93f3-41b9-81b6-4c99f903736e.jpg",
         "short_description": "Learn how the Industrial Internet of Things and smart manufacturing can capture continuous real-time data and boost productivity",
@@ -126,7 +133,8 @@
     },
     {
         "id": 8,
-        "category": "teaching",
+        "category": "Teaching",
+        "category_id" : "03",
         "name": "Teaching English Online",
         "image": "https://ugc.futurelearn.com/uploads/images/e6/31/header_e63139a1-5e06-482f-b5fb-0e9ab6738793.jpg",
         "short_description": "Learn how to transfer your teaching skills to an online context and start teaching English online",
@@ -144,7 +152,8 @@
     },
     {
         "id": 9,
-        "category": "teaching",
+        "category": "Teaching",
+        "category_id" : "03",
         "name": "Becoming a Better Music Teacher",
         "image": "https://ugc.futurelearn.com/uploads/images/5b/18/header_5b18699f-5c8a-49e9-ad48-dc47b1338c79.jpg",
         "short_description": "Improve your teaching strategies and skills as a music teacher or vocal coach with this ABRSM online course.",
@@ -162,7 +171,8 @@
     },
     {
         "id": 10,
-        "category": "teaching",
+        "category": "Teaching",
+        "category_id" : "03",
         "name": "English in Early Childhood: Language Learning and Development",
         "image": "https://ugc.futurelearn.com/uploads/images/1b/de/header_1bdef046-3490-4426-9c11-33e7f8c56475.jpg",
         "short_description": "Improve your teaching strategies and skills as a music teacher or vocal coach with this ABRSM online course.",
@@ -180,7 +190,8 @@
     },
     {
         "id": 11,
-        "category": "history",
+        "category": "History",
+        "category_id" : "04",
         "name": "Cultural Heritage and the City",
         "image": "https://ugc.futurelearn.com/uploads/images/b9/35/header_b9350ecf-f7be-4535-a0e0-cc11fc509f64.jpg",
         "short_description": "Discover how cities develop their own unique cultures and explore key concepts related to cultural heritage.",
@@ -198,7 +209,8 @@
     },
     {
         "id": 12,
-        "category": "history",
+        "category": "History",
+        "category_id" : "04",
         "name": "Forensic Archaeology and Anthropology",
         "image": "https://ugc.futurelearn.com/uploads/images/96/af/header_96af297f-8b32-4004-919a-2343f80e4b81.jpg",
         "short_description": "Enter the fascinating world of forensics, and learn how the deceased are located, recovered and analysed using DNA and pathology",
@@ -216,7 +228,8 @@
     },
     {
         "id": 13,
-        "category": "literature",
+        "category": "Literature",
+        "category_id" : "05",
         "name": "Walter Scott: The Man Behind the Monument",
         "image": "https://ugc.futurelearn.com/uploads/images/97/25/header_9725694b-186c-42bd-a191-ef96659de9ea.jpg",
         "short_description": "Discover the writer, collector, and cultural icon who remains one of Scotland’s most enduring literary legends.",
@@ -234,7 +247,8 @@
     },
     {
         "id": 14,
-        "category": "literature",
+        "category": "Literature",
+        "category_id" : "05",
         "name": "A Beginners Guide to Film Genres",
         "image": "https://ugc.futurelearn.com/uploads/images/d6/b7/header_d6b7d6e9-01ff-4782-916d-af7d86d0009a.jpg",
         "short_description": "Explore what genre means in film and how it shapes both the narrative and the audiences response to the story on screen",
@@ -253,7 +267,8 @@
 
     {
         "id": 15,
-        "category": "history",
+        "category": "Literature",
+        "category_id" : "05",
         "name": "Cultural Heritage and the City",
         "image": "https://ugc.futurelearn.com/uploads/images/b9/35/header_b9350ecf-f7be-4535-a0e0-cc11fc509f64.jpg",
         "short_description": "Discover how cities develop their own unique cultures and explore key concepts related to cultural heritage.",
@@ -272,7 +287,8 @@
 
     {
         "id": 16,
-        "category": "language",
+        "category": "Language",
+        "category_id" : "06",
         "name": "Fall in Love with Mandarin",
         "image": "https://ugc.futurelearn.com/uploads/images/2c/f6/header_2cf6618b-1080-4b15-b6bf-744799045345.jpg",
         "short_description": "Learn everyday Chinese Mandarin and discover Taiwanese culture in the process.",
