@@ -40,7 +40,6 @@ app.get('/category/:id', (req, res) => {
 
 
 
-
 app.listen(Port, () => {
     console.log('Server is up and Running')
 })
